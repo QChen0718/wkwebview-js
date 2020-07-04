@@ -16,6 +16,7 @@
 		1662114B24ACC6360099F721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662114A24ACC6360099F721 /* main.m */; };
 		1662115524ACC6360099F721 /* wkwebviewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662115424ACC6360099F721 /* wkwebviewTestTests.m */; };
 		1662116024ACC6360099F721 /* wkwebviewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1662115F24ACC6360099F721 /* wkwebviewTestUITests.m */; };
+		1662116E24ACCB960099F721 /* wkwebviewhtml.html in Resources */ = {isa = PBXBuildFile; fileRef = 1662116D24ACCB960099F721 /* wkwebviewhtml.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1662115B24ACC6360099F721 /* wkwebviewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wkwebviewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1662115F24ACC6360099F721 /* wkwebviewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wkwebviewTestUITests.m; sourceTree = "<group>"; };
 		1662116124ACC6360099F721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1662116D24ACCB960099F721 /* wkwebviewhtml.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wkwebviewhtml.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		1662113724ACC6320099F721 /* wkwebviewTest */ = {
 			isa = PBXGroup;
 			children = (
+				1662116D24ACCB960099F721 /* wkwebviewhtml.html */,
 				1662113824ACC6320099F721 /* AppDelegate.h */,
 				1662113924ACC6320099F721 /* AppDelegate.m */,
 				1662113B24ACC6320099F721 /* SceneDelegate.h */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1662114824ACC6360099F721 /* LaunchScreen.storyboard in Resources */,
+				1662116E24ACCB960099F721 /* wkwebviewhtml.html in Resources */,
 				1662114524ACC6360099F721 /* Assets.xcassets in Resources */,
 				1662114324ACC6320099F721 /* Main.storyboard in Resources */,
 			);
